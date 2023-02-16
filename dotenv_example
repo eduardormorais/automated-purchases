@@ -1,0 +1,3 @@
+PATH_DATA_NUINVEST = ./data/asset_purchases/spreadsheets
+PATH_SCREENSHOTS = ./data/asset_purchases/screenshots
+PATH_DATA_KINVO = ./data/negotiations

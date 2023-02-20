@@ -10,7 +10,7 @@ from kinvo.enum.xpaths import XPathsKinvoEnum
 
 
 class KinvoScrapping:
-    def __init__(self, email, password):
+    def __init__(self, email: str, password: str):
         self.__email = email
         self.__password = password
         self.__url_base = "https://app.kinvo.com.br"
@@ -130,4 +130,10 @@ class KinvoScrapping:
             "/carteira/detalhes-da-acao/QUAL3/26511140",
             "/carteira/detalhes-da-acao/HGLG11/25818784",
             "/carteira/detalhes-da-acao/CIEL3/45539986",
+            "/carteira/detalhes-da-acao/KLBN4/53366629",
+            "/carteira/detalhes-da-acao/SANB4/53366662",
+            "/carteira/detalhes-da-acao/SAPR4/53366741",
+            "/carteira/detalhes-da-acao/TAEE4/53366824",
+            "/carteira/detalhes-da-acao/UNIP5/53366748",
+            "/carteira/detalhes-da-acao/CPLE5/53366751"
         ]
